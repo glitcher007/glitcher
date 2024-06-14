@@ -1,0 +1,14 @@
+with python 
+read Amazon.html and parse with Beautifulsoup
+
+find all 
+div class="a-section aok-relative s-image-square-aspect"
+for all the divs
+
+
+try find span with class="a-size-base-plus a-color-base a-text-normal" and store it to Product_Name
+except Product_Name=" "
+try find span with  class="a-price-whole" and store it to Product_price
+except Product_price=" "
+
+open an excel file and write product_name,Product_price
